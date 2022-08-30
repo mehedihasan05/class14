@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu ul{
+    
+    padding: 15px 0;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 20px;
+    background-color: cyan;
+    padding: 10px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 25px;
+    color: rgb(20, 73, 24);
+}
+.menu ul li:hover{
+    background: #000;
+    text-decoration: none;
+}
+ 
+/* section */
+.section{
+    background-color: cyan;
+    padding: 100px 0 150px 0;
+}
+.section h3{
+    text-align: center;
+    color: white;
+}
+.section h1{
+    text-align: center;
+    color: white;
+    font-size: 30x;
+    margin-bottom: 10px;
+}
+.android-icon{
+    text-align: center;
+}
+
+.android-icon a{
+    display: inline-block;
+    margin: auto;
+    color: gray;
+    background-color:white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.android-icon a::before{
+    content: "\f17b";
+    top: 0;
+    color: rgb(35, 43, 80);
+    font-weight: 900;
+    font-family: "Font Awesome 6 Brands";
+}
+.android-icon a::before:hover{
+    background: rgb(20, 23, 54);
+}
+
+/* .img-section */
+.img-section{
+    margin-top: 50px;
+}
+
+.img-section h1{
+    text-align: center;
+}
+  .img-section p{
+    text-align: center;
+  }
+
+.img-section{
+    text-align: center;
+    width: 1240px;
+    background-color: white;
+    margin: 50px auto;
+}
+.img-section .div-1{
+   
+   display: inline-block;
+   overflow: hidden;
+   width: 250px;
+   margin: 10px;
+ 
+}
+
+.img-section .div-1 img{
+    max-width: 100%;
+    transition: .5s;
+
+}
+ 
+.img-section .div-2{
+   
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+  
+ }
+ 
+ .img-section .div-2 img{
+     max-width: 100%;
+     transition: .5s;
+ 
+ }
+ 
+
+ 
+ .img-section .div-3{
+   
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+  
+ }
+ 
+ .img-section .div-3 img{
+     max-width: 100%;
+     transition: .5s;
+ }
+
+ .img-section .div-4{
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+ }
+ 
+ .img-section .div-4 img{
+     max-width: 100%;
+     transition: .5s;
+ }
+
+ .img-section .div-5{
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+ }
+ .img-section .div-5 img{
+     max-width: 100%;
+     transition: .5s;
+ }
+
+ .img-section .div-6{
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+ }
+ 
+ .img-section .div-6 img{
+     max-width: 100%;
+     transition: .5s;
+ 
+ }
+ 
+ .img-section .div-7{
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+  
+ }
+ 
+ .img-section .div-7 img{
+     max-width: 100%;
+     
+     transition: .5s;
+ 
+ }
+ 
+ .img-section .div-8{
+    display: inline-block;
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+  
+ }
+ 
+ .img-section .div-8 img{
+     max-width: 100%;
+     transition: .5s;
+ 
+ }
+ 
+
+/* imge section end */
+
+.content{
+    text-align: center;
+}
+
+.desing{
+    
+    width: 50px;
+    margin: 50px;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+}
+
+ .wraper-div .div-1{
+    transform: rotate(-30deg);
+}
+.wraper-div .div-3{
+    transform: rotate(30deg);
+} 
+
+.footer h3{ 
+    text-align: center;
+    background-color: darkslategrey;
+    padding: 10px;
+   margin-bottom: 20px;
+   color: white;
+}
+
+/* menu :hover */
+
+.menu ul li:hover{
+    background-color: white;
+}
+
+.menu ul li a:hover{
+    color: aqua;
+}
+.menu ul li a::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li a:hover::before{
+    width: 100%;
+}
+
+/* google-icon:hover */
+.android-icon a:hover{
+   background-color: black;
+
+}
+
+
+
+/* image:hover */
+
+
+.img-section .div-1 img:hover{
+    transform: rotate(360deg);
+ }
+
+ .img-section .div-2 img:hover{
+    transform: rotate(30deg);
+ }
+
+ .img-section .div-3 img:hover{
+    transform: rotate(-30deg);
+ }
+ 
+
+ .img-section .div-4 img:hover{
+    transform: rotate(30deg);
+ }
+
+ .img-section .div-5 img:hover{
+   transform: rotate(35deg);
+ }
+
+ .img-section .div-6 img:hover{
+   transform: rotate(360deg);
+ }
+
+
+ .img-section .div-7 img:hover{
+    transform: scale(1.5);
+ }
+
+
+ .img-section .div-8 img:hover{
+    transform: scale(1.5);
+ }
+
+ /* hover step */
+
+
+ .wraper-div .div-1:hover{
+    transform:scale(1);
+    background-color: cyan;
+}
+.wraper-div .div-3:hover{
+    transform: scale(1);
+    background-color: cyan;
+} 
